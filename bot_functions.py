@@ -4,9 +4,9 @@ import datetime
 import time
 from telebot import types
 from telebot.types import Message
-from draf_google_sheets import checking_date_for_repeat
-from draf_google_sheets import adding_last_event
-from draf_google_sheets import writing_date_and_event
+from google_sheets import checking_date_for_repeat
+from google_sheets import adding_last_event
+from google_sheets import writing_date_and_event
 
 bot = telebot.TeleBot('')
 
